@@ -1,13 +1,56 @@
 body {
     color:rgb(9, 9, 9);
     background-color:#ffe3af;
+    background-image: url("images/Biserica Salamanca (5).JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(255, 255, 255);
     text-align:center;
-}
+background-color: rgba(8, 113, 199, 0.5);}
 
 nav {
-    background-color:lightblue;
+    color:rgb(247, 240, 240);
+    background-color:rgba(8, 113, 199, 0.5)
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+li a{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;    
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+footer {
+    color: white;
+    background-color: rgba(8, 113, 199, 0.5);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
